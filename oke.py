@@ -32,3 +32,7 @@ def test():
     print(filter_less(test_array, 4))
     print(filter_equal(test_array, 5))
     print(filter_not(test_array, 6))
+
+def matri(x):
+    a=x[0][0]+x[1][0]+x[1][1]+x[2][0]+x[2][1]+x[2][2]
+    print(a)
